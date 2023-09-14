@@ -31,15 +31,16 @@ function listNFTs () {
         console.log("Name: " + NFTs[i].name);
         console.log("Color: " + NFTs[i].color);
         console.log("Outfit: " + NFTs[i].outfit);
+        console.log("\n");
     }
 }
-
 // print the total number of NFTs we have minted to the console
 function getTotalSupply() {
     console.log(NFTs.length);
 }
-
 // call your functions below this line
 mintNFT("Juan", "Red", "Shirt");
+mintNFT("Pedro", "Blue", "Jacket");
+console.log("\n");
 listNFTs();
 getTotalSupply();
